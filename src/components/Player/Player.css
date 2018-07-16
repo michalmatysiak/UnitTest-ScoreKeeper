@@ -1,0 +1,57 @@
+li {
+	width: 350px;
+	padding: 10px 0;
+	list-style: none;
+	height: 45px;
+	border: 1px solid #000;
+	text-transform: uppercase;
+}
+
+li:nth-child(odd) {
+	background: #6CC9FF;
+}
+
+li:nth-child(even) {
+	background: #A4ADB2;
+	color: #000;
+}
+
+li:nth-child(1) {
+	background: #B27016;
+	color: #fff;
+}
+
+.Player__button {
+	display: inline-block;
+	float: right;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #000;
+	text-align: center;
+	margin: 0 7px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.Player__score {
+	display: inline-block;
+	float: right;
+	width: 50px;
+	height: 30px;
+	border: 1px dashed #000;
+	text-align: center;
+	margin: -4px 25px 0;
+	background: #e8790c;
+	line-height: 28px;
+	font-size: 28px;
+}
+
+.Player__button:first-child {
+	float: left;
+	border-radius: 50%;
+	margin-right: 40px;
+}
+
+.Player__name {
+	font-weight: 700;
+}
